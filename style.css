@@ -1,6 +1,4 @@
-/* *{
-    color: white;
-} */
+
 #container{
     background-color:white;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
@@ -9,6 +7,7 @@
     margin: auto;
     margin-top: 50px;
     box-sizing: border-box;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
 }
 #container>div{
     /* border: 1px solid black; */
@@ -16,16 +15,17 @@
     width: 60%;
     margin: auto;
 
-
 }
 .innerbox{
     
     display: flex;
     justify-content: space-between;
     margin: auto;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
 }  
 .innerbox>div {
     margin: auto;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
 }
 #main{
     width: 60%;
